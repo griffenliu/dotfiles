@@ -2,6 +2,8 @@
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
+增加了[oh-my-i3](https://github.com/ID1258/oh-my-i3)中的i3配置
+
 ## Installation
 
 * 安装rsync
