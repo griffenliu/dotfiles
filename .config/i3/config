@@ -152,7 +152,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $mode_system 系统:锁屏(L) 注销(O) 关机(S) 重启(R) 取消(Esc)
-bindsym $mod+Esc mode "$mode_system"
+bindsym $mod+Home mode "$mode_system"
 mode "$mode_system" {
     bindsym l exec i3lock -c '#333333', exec sleep .1 && exec xset dpms force off, mode "default"
     bindsym o exec i3-msg exit
