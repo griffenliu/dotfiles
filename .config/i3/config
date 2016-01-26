@@ -83,10 +83,10 @@ bindsym $mod+q focus parent
 # 焦点切换到浮动窗口
 bindsym $mod+Shift+space focus mode_toggle
 #
-bindsym $mod+w focus up
-bindsym $mod+s focus down
-bindsym $mod+a focus left
-bindsym $mod+d focus right
+bindsym $mod+j focus up
+bindsym $mod+k focus down
+bindsym $mod+l focus left
+bindsym $mod+; focus right
 
 # => 布局切换
 # 切换到堆叠布局
