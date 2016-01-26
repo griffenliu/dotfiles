@@ -14,7 +14,7 @@
 
 # => 开机自启（根据需要取消相应的注释#）
 # 壁纸须先安装feh，并在此指定路径
-#exec --no-startup-id feh --bg-scale "$HOME/oh-my-i3/wallpaper.jpg"
+exec --no-startup-id feh --bg-scale "$HOME/wallpaper.jpg"
 # 设置透明须先安装xcompmgr，并在此指定软件和透明度（默认0.75），sleep保证transset在其所设置的软件之后启动，根据情况调节大小
 #exec --no-startup-id xcompmgr &
 #exec --no-startup-id sleep .2 && exec transset -n i3bar 0.75
