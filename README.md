@@ -8,6 +8,21 @@
 ## 字体
 
 - Monaco:一个很好看的等宽英文字体，非常适用于写代码，若显示不佳请用infinality渲染
+  ```
+  $ vi /etc/pacman.conf
+  ------------------------
+  [infinality-bundle]
+  Server = http://bohoomil.com/repo/$arch
+  ...
+  
+  $ sudo pacman-key -r 962DDE58
+  $ sudo pacman-key --lsign-key 962DDE58
+  $ pacman -Syyu
+  $ pacman -S infinality-bundle
+  # 如果有冲突，提示是否移除时，选择yes
+  # 安装完成重启电脑
+  # 参考：https://wiki.archlinux.org/index.php/Infinality    http://tieba.baidu.com/p/2794453836
+  ```
 - font-awesome:开源的图标字体，可通过简单地复制粘贴使用，具体查看:
 http://fortawesome.github.io/Font-Awesome/cheatsheet/
 
