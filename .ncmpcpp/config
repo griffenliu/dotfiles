@@ -62,7 +62,7 @@ titles_visibility = "yes"
 
 ## Other ##
 now_playing_prefix = "> "
-progressbar_look = "©¤©¤©¤"
+#progressbar_look = "Ð¹Ð´Ð¹Ð´Ð¹Ð´"
 colors_enabled = "yes"
 autocenter_mode = "yes"
 centered_cursor = "yes"
