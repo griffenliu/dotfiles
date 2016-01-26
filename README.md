@@ -4,6 +4,13 @@
 
 增加了[oh-my-i3](https://github.com/ID1258/oh-my-i3)中的i3配置
 
+
+## 字体
+
+- Monaco:一个很好看的等宽英文字体，非常适用于写代码，若显示不佳请用infinality渲染
+- font-awesome:开源的图标字体，可通过简单地复制粘贴使用，具体查看:
+http://fortawesome.github.io/Font-Awesome/cheatsheet/
+
 ## Installation
 
 * 安装rsync
