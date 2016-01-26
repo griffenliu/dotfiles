@@ -159,7 +159,8 @@ mode "$mode_system" {
 ############################# 主题相关 ###############################
 
 # 字体
-font pango:Monaco 10
+#font pango:Monaco 10
+font pango:UbuntuMono-R 10
 
 # 窗口颜色                边框    背景    文字    提示
 client.focused          #333333 #333333 #FFFFFF #333333
