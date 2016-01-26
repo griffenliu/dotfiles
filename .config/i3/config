@@ -86,7 +86,7 @@ bindsym $mod+Shift+space focus mode_toggle
 bindsym $mod+j focus up
 bindsym $mod+k focus down
 bindsym $mod+l focus left
-bindsym $mod+; focus right
+bindsym $mod+semicolon focus right
 
 # => 布局切换
 # 切换到堆叠布局
