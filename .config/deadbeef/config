@@ -1,0 +1,103 @@
+artwork.filemask *cover*.jpg;*front*.jpg;*folder*.jpg;*cover*.png;*front*.png;*folder*.png
+cli_add_playlist_name Default
+cli_add_to_specific_playlist 1
+deadbeef_version devel
+extcolor="#000000" label="Current" action="jump_to_current_track" use_color=0 use_textcolor=0 {} } } } 
+filechooser.lastdir file:///home/kalterfive
+gtkui.columns.playlist [{"title":"?","id":"1","format":"%playstatus%","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)","size":"190","align":"0","color_override":"0","color":"#ffdcdcdc"},{"title":"Duration","id":"-1","format":"%length%","size":"57","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"589","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.hide_tray_icon 1
+gtkui.layout.0.6.2 vsplitter pos=46 locked=1 {waveform_seekbar {} vsplitter pos=663 locked=1 {vsplitter pos=34 locked=1 {hsplitter pos=151 locked=1 {playtb {} hsplitter pos=1138 locked=1 {quick_search {} volumebar {} } } hsplitter pos=944 locked=1 {playlist hideheaders=1 {} infobar {} } } hbox expand="1 1 1" fill="1 1 1" homogeneous=1 {hsplitter pos=226 locked=1 {button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Snuffle tracks" action="order_shuffle" use_color=0 use_textcolor=0 {} } hsplitter pos=226 locked=1 {button color="#000000" textcolor="#000000" label="Random" action="order_random" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Loop all" action="loop_all" use_color=0 use_textcolor=0 {} } hsplitter pos=227 locked=1 {button color="#000000" textcolor="#000000" label="Loop single track" action="loop_track" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Current" action="jump_to_current_track" use_color=0 use_textcolor=0 {} } } } } 
+gtkui.mmb_delete_playlist 1
+gtkui.name_playlist_from_folder 1
+gtkui.show_menu 0
+gtkui.statusbar.visible 0
+gtkui.tabscroll 0
+gtkui.titlebar_playing %a - %t - DeaDBeeF-%V
+gtkui.titlebar_playing_tf %artist% - %title% - DeaDBeeF-%_deadbeef_version%
+gtkui.titlebar_stopped DeaDBeeF-%V
+gtkui.titlebar_stopped_tf DeaDBeeF-%_deadbeef_version%
+gui_plugin GTK2
+hotkey.key01 "q" 0 0 quit
+hotkey.key02 "Ctrl e" 0 0 toggle_menu
+hotkeys_created 1
+ignore_archives 1
+junk.enable_cp1251_detection 0
+mainwin.geometry.h 748
+mainwin.geometry.w 1366
+mainwin.geometry.x 0
+mainwin.geometry.y 0
+network.http_user_agent deadbeef
+network.proxy.port 8080
+network.proxy.type HTTP
+notify.albumart 1
+notify.albumart_size 64
+notify.enable 1
+notify.format %t
+notify.format_content %a - %b
+playback.loop 0
+playback.order 1
+playback.volume -0.057208
+playlist.column.00 "?" "" 1 50 0
+playlist.column.01 "Artist" "%a" -1 241 0
+playlist.column.02 "Duration" "%l" -1 57 1
+playlist.column.03 "Title" "%t" -1 303 0
+playlist.current 4
+playlist.cursor.0 3456
+playlist.cursor.1 0
+playlist.cursor.2 669
+playlist.cursor.3 138
+playlist.cursor.4 -1
+playlist.scroll.0 86152
+playlist.scroll.1 0
+playlist.scroll.2 0
+playlist.scroll.3 3378
+playlist.scroll.4 0
+playlist.scroll.cursorfollowplayback 1
+playlist.tab.00000 music
+playlist.tab.00001 music
+playlist.tab.00002 music
+playlist.tab.00003 music
+playlist.tab.00004 Default
+prefwin.geometry.h 504
+prefwin.geometry.w 775
+prefwin.geometry.x 307
+prefwin.geometry.y 152
+replaygain_mode 1
+replaygain_scale 1
+resume.paused 0
+resume.playlist 4
+resume.position 11.126561
+resume.track 0
+streamer.8_to_16 1
+waveform.bg_alpha 65535
+waveform.bg_color_b 11565
+waveform.bg_color_g 11565
+waveform.bg_color_r 11565
+waveform.border_width 1
+waveform.cache_enabled 1
+waveform.cursor_width 3
+waveform.display_rms 1
+waveform.display_ruler 0
+waveform.fg_alpha 65535
+waveform.fg_color_b 57054
+waveform.fg_color_g 57054
+waveform.fg_color_r 57054
+waveform.fg_rms_alpha 65535
+waveform.fg_rms_color_b 28270
+waveform.fg_rms_color_g 28270
+waveform.fg_rms_color_r 28270
+waveform.fill_waveform 0
+waveform.font_size 18
+waveform.log_enabled 0
+waveform.max_file_length 180
+waveform.mix_to_mono 1
+waveform.num_samples 2048
+waveform.pb_alpha 0
+waveform.pb_color_b 57054
+waveform.pb_color_g 57054
+waveform.pb_color_r 57054
+waveform.refresh_interval 33
+waveform.render_method 2
+waveform.scroll_enabled 1
+waveform.shade_waveform 1
+waveform.soundcloud_style 0
